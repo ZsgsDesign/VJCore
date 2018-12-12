@@ -1,0 +1,8 @@
+#! /usr/bin/env python3
+
+judgerConfig = {
+    'codeforces':{
+        "username1":"pass1",
+        "username2":"pass2",
+    },
+}
