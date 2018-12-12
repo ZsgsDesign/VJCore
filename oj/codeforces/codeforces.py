@@ -46,7 +46,7 @@ def main():
         print("Configuration Failure.")
         return
 
-    browser = RoboBrowser()
+    browser = RoboBrowser(parser='lxml')
     browser.open('http://codeforces.com/enter')
 
     enter_form = browser.get_form('enterForm')
