@@ -42,13 +42,14 @@ def main(argv):
         print("\nfailed")
         return
     Prob = input("Problem: ")
+    print()
     try:
         username = random.choice(list(judgerConfig[OJ]))
         ret = os.system("python OJ/" + OJ + "/" + OJ + ".py "+username+" "+Prob+" "+Prob+".cpp ")
     except:
         ret = -1
     if ret == 0:
-        print("successful")
+        print("complete")
     else:
         print("failed")
 
