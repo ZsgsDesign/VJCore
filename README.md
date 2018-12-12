@@ -9,8 +9,19 @@ Rename `config.py.sample` to `config.py`, then modify configurations as you wish
 ## Running
 
 ```
+PS VJCore> & python c:/Users/ZsgsD/Desktop/workspace/VJCore/main.py
+----- available online judeges -----
+
+- codeforces
+
+------------------------------------
+
 OJ: codeforces
 Problem: 500A
+
+Submitted, wait for result...
+Verdict = OK
+complete
 ```
 
 ## Notice
